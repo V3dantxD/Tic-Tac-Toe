@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+body{
+    background-color: #50b998;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    background-image: linear-gradient(rgb(99, 99, 255), rgb(169, 74, 225), rgb(188, 51, 51));
+    color: transparent;
+    background-clip: text;
+}
+.main{
+    padding-top: 60px;
+    height: 63vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18vh;
+    width: 8.5vw;
+    box-shadow: 0px 0px 10px #000, inset 0px 0px 30px #000000;
+    font-size: 65px;
+    border-radius: 10px;
+    color: #003366;
+    background-color: #71e7ae;
+    border: none;
+}
+.op{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#retry{
+    width: 8vw;
+    height: 5vh;
+    text-align: center;
+    background-color: #71e7ae;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    font-size: 20px;
+}
+#retry:hover{
+    background-color: #3c453e;
+    color: #50b998;
+}
+
+#win_content{
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 826px) and (max-width: 1078px) {
+    .main{
+        padding-top: 60px;
+        height: 55vh;
+        width: 30vw;
+    }
+    .box{
+        height: 15vh;   
+        font-size: 60px;
+    }
+    #retry{
+        width: 20vw;
+    }
+}
+@media only screen and (min-width: 670px) and (max-width: 826px) {
+    .main{
+        padding-top: 60px;
+        height: 50vh;
+        width: 30vw;
+    }
+    .box{
+        height: 13vh;
+        font-size: 55px;
+    }
+    #retry{
+        width: 23vw;
+    }
+}
+@media only screen and (min-width: 530px) and (max-width: 670px) {
+    .main{
+        padding-top: 60px;
+        height: 45vh;
+        width: 30vw;
+    }
+    .box{
+        height: 11vh;
+        width: 10vw;
+        box-shadow: 0px 0px 10px #000, inset 0px 0px 20px #000000;
+        font-size: 50px;
+    }
+    #retry{
+        width: 23vw;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #win_content{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 370px) and (max-width: 530px) {
+    .main{
+        padding-top: 60px;
+        height: 38vh;
+        width: 30vw;
+    }
+    .box{
+        height: 9vh;
+        width: 10vw;
+        box-shadow: 0px 0px 8px #000, inset 0px 0px 15px #000000;
+        font-size: 43px;
+    }
+    #retry{
+        width: 28vw;
+        font-size: 17px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #win_content{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 242px) and (max-width: 370px) {
+    .main{
+        padding-top: 60px;
+        height: 35vh;
+        width: 40vw;
+    }
+    .box{
+        height: 8vh;
+        width: 12vw;
+        box-shadow: 0px 0px 8px #000, inset 0px 0px 13px #000000;
+        font-size: 32px;
+    }
+    #retry{
+        width: 45vw;
+        font-size: 17px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #win_content{
+        font-size: 33px;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 242px) {
+    .main{
+        padding-top: 60px;
+        height: 30vh;
+        width: 45vw;
+    }
+    .box{
+        height: 7vh;
+        width: 12vw;
+        box-shadow: 0px 0px 8px #000, inset 0px 0px 10px #000000;
+        font-size: 25px;
+    }
+    #retry{
+        width: 50vw;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #win_content{
+        font-size: 33px;
+    }
+}
