@@ -11,9 +11,7 @@ h1{
     text-align: center;
     padding-top: 20px;
     font-size: 60px;
-    background-image: linear-gradient(rgb(99, 99, 255), rgb(169, 74, 225), rgb(188, 51, 51));
-    color: transparent;
-    background-clip: text;
+    color: #000;
 }
 .main{
     padding-top: 60px;
@@ -80,11 +78,11 @@ h1{
 @media only screen and (min-width: 670px) and (max-width: 826px) {
     .main{
         padding-top: 60px;
-        height: 50vh;
+        height: 45vh;
         width: 30vw;
     }
     .box{
-        height: 13vh;
+        height: 11vh;
         font-size: 55px;
     }
     #retry{
@@ -99,7 +97,7 @@ h1{
     }
     .box{
         height: 11vh;
-        width: 10vw;
+        width: 9vw;
         box-shadow: 0px 0px 10px #000, inset 0px 0px 20px #000000;
         font-size: 50px;
     }
@@ -122,7 +120,7 @@ h1{
     }
     .box{
         height: 9vh;
-        width: 10vw;
+        width: 8vw;
         box-shadow: 0px 0px 8px #000, inset 0px 0px 15px #000000;
         font-size: 43px;
     }
@@ -140,11 +138,11 @@ h1{
 @media only screen and (min-width: 242px) and (max-width: 370px) {
     .main{
         padding-top: 60px;
-        height: 35vh;
+        height: 32vh;
         width: 40vw;
     }
     .box{
-        height: 8vh;
+        height: 7vh;
         width: 12vw;
         box-shadow: 0px 0px 8px #000, inset 0px 0px 13px #000000;
         font-size: 32px;
@@ -167,7 +165,7 @@ h1{
         width: 45vw;
     }
     .box{
-        height: 7vh;
+        height: 6vh;
         width: 12vw;
         box-shadow: 0px 0px 8px #000, inset 0px 0px 10px #000000;
         font-size: 25px;
