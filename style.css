@@ -115,7 +115,7 @@ h1{
 @media only screen and (min-width: 370px) and (max-width: 530px) {
     .main{
         padding-top: 60px;
-        height: 38vh;
+        height: 35vh;
         width: 30vw;
     }
     .box{
@@ -138,7 +138,7 @@ h1{
 @media only screen and (min-width: 242px) and (max-width: 370px) {
     .main{
         padding-top: 60px;
-        height: 32vh;
+        height: 30vh;
         width: 40vw;
     }
     .box{
@@ -161,7 +161,7 @@ h1{
 @media only screen and (min-width: 100px) and (max-width: 242px) {
     .main{
         padding-top: 60px;
-        height: 30vh;
+        height: 27vh;
         width: 45vw;
     }
     .box{
